@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+     font-family:cursive;
+
+}
+h1{
+    font-family:cursive;
+}
+span{
+    font-family: cursive;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: azure;
+    position: sticky;
+}
+nav ul li{
+    padding: 0 12px;
+    cursor: pointer;
+}
+#sarch{
+    margin-left: 40vw;
+    border-radius: 30%;
+    
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+
+}
+#logo{
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: azure;
+    display: flex;
+    width: 70%;
+    border: 4px solid rgba(10, 143, 10, 0.792);
+    border-radius: 12px;
+    margin: 23px auto;
+    padding: 34px;
+    background-image: url('ss.jpg');
+}
+.bottom{
+    
+    position:relative;
+    height: 100px;
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    
+}
+
+
+.songitem{
+    height: 50px;
+    display: flex;
+  
+    color: #0d0101;
+    margin: 12px 0;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+    cursor: pointer;
+}
+.songitem:hover{
+    border: 2 4 4 2;
+    border: solid black;
+}
+
+.songitem img{
+width: 43px;
+margin: 0 23px;
+border-radius: 30px;
+}
+.timestamp{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 44px;
+    
+}
+.songinfo{
+    color: azure;
+    left: 10vw;
+    position: absolute;
+    display: flex;
+    padding: 5px;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity is ease-in;
+}
+#gif{
+    margin-top: 10px;
+}
+#masterSongName{
+    margin-top: 20px;
+}
